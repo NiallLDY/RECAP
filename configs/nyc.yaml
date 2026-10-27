@@ -1,0 +1,30 @@
+data:
+  dir: data/NYC
+  window: 10
+  history_cap: 512
+backbone:
+  d_model: 256
+  layers: 2
+  heads: 4
+  ffn: 512
+  dropout: 0.1
+  embedding_dropout: 0.3
+  output_dropout: 0.2
+  poi_dim: 128
+  cat_dim: 32
+  graph_hops: 2
+  graph_hidden: 256
+  graph_dropout: 0.1
+  graph_start_epoch: 60
+  graph_ramp_epochs: 20
+  epochs: 130
+  batch_size: 512
+  lr: 3.0e-5
+  weight_decay: 5.0e-6
+scorer:
+  hidden: 64
+  epochs: 12
+  batch_size: 256
+  lr: 3.0e-3
+  weight_decay: 1.0e-5
+  lam: 12

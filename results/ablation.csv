@@ -1,0 +1,64 @@
+variant,city,seed,lambda,HR@1,HR@20
+Backbone,NYC,3407,,0.207004,0.716558
+Backbone,NYC,12050,,0.205161,0.71811
+Backbone,NYC,2026,,0.213697,0.716364
+Backbone,TKY,3407,,0.225396,0.674375
+Backbone,TKY,12050,,0.224688,0.671856
+Backbone,TKY,2026,,0.226386,0.673583
+Backbone,CA,3407,,0.144336,0.483707
+Backbone,CA,12050,,0.14194,0.475273
+Backbone,CA,2026,,0.142323,0.478915
++ Graph token,NYC,3407,,0.222621,0.718304
++ Graph token,NYC,12050,,0.217674,0.718401
++ Graph token,NYC,2026,,0.221457,0.715782
++ Graph token,TKY,3407,,0.229443,0.686745
++ Graph token,TKY,12050,,0.228736,0.684056
++ Graph token,TKY,2026,,0.229415,0.684961
++ Graph token,CA,3407,,0.151141,0.509488
++ Graph token,CA,12050,,0.152291,0.511022
++ Graph token,CA,2026,,0.148169,0.513801
++ Revisit scorer (RECAP),NYC,3407,12.0,0.283442,0.800563
++ Revisit scorer (RECAP),NYC,12050,12.0,0.28383,0.802697
++ Revisit scorer (RECAP),NYC,2026,12.0,0.283733,0.804346
++ Revisit scorer (RECAP),TKY,3407,8.0,0.277025,0.749215
++ Revisit scorer (RECAP),TKY,12050,8.0,0.274704,0.747856
++ Revisit scorer (RECAP),TKY,2026,8.0,0.273656,0.748365
++ Revisit scorer (RECAP),CA,3407,24.0,0.196473,0.563063
++ Revisit scorer (RECAP),CA,12050,24.0,0.196952,0.560284
++ Revisit scorer (RECAP),CA,2026,24.0,0.195515,0.561146
+Joint training,NYC,3407,6.0,0.2589,0.782714
+Joint training,NYC,12050,6.0,0.26084,0.782811
+Joint training,NYC,2026,6.0,0.266175,0.790183
+Joint training,TKY,3407,8.0,0.270826,0.732401
+Joint training,TKY,12050,8.0,0.270288,0.73359
+Joint training,TKY,2026,8.0,0.270995,0.73175
+Joint training,CA,3407,16.0,0.189093,0.535557
+Joint training,CA,12050,16.0,0.196856,0.534598
+Joint training,CA,2026,16.0,0.195611,0.536324
+w/o long-term relation,NYC,3407,4.0,0.272868,0.770686
+w/o long-term relation,NYC,12050,4.0,0.267145,0.769522
+w/o long-term relation,NYC,2026,4.0,0.269861,0.770589
+w/o long-term relation,TKY,3407,4.0,0.269099,0.737524
+w/o long-term relation,TKY,12050,4.0,0.266835,0.737043
+w/o long-term relation,TKY,2026,4.0,0.267599,0.737949
+w/o long-term relation,CA,3407,3.0,0.181139,0.55875
+w/o long-term relation,CA,12050,3.0,0.180564,0.555396
+w/o long-term relation,CA,2026,3.0,0.182576,0.554725
+w/o current context,NYC,3407,0.5,0.228344,0.725677
+w/o current context,NYC,12050,0.5,0.223979,0.726647
+w/o current context,NYC,2026,0.5,0.22621,0.722863
+w/o current context,TKY,3407,0.5,0.237001,0.699001
+w/o current context,TKY,12050,0.5,0.234199,0.696906
+w/o current context,TKY,2026,0.5,0.234057,0.697444
+w/o current context,CA,3407,1.0,0.158329,0.532011
+w/o current context,CA,12050,1.0,0.160054,0.528273
+w/o current context,CA,2026,1.0,0.159095,0.532011
+Linear scorer,NYC,3407,16.0,0.261034,0.786012
+Linear scorer,NYC,12050,16.0,0.25599,0.790571
+Linear scorer,NYC,2026,16.0,0.259482,0.791347
+Linear scorer,TKY,3407,2.0,0.247134,0.716748
+Linear scorer,TKY,12050,2.0,0.245351,0.714795
+Linear scorer,TKY,2026,2.0,0.245917,0.715644
+Linear scorer,CA,3407,16.0,0.166858,0.534023
+Linear scorer,CA,12050,16.0,0.166092,0.531915
+Linear scorer,CA,2026,16.0,0.167529,0.533161
